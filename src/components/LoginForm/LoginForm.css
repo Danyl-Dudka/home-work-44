@@ -1,0 +1,18 @@
+.form_styles {
+    display: flex;
+    width: 400px;
+    margin-top: 10px;
+    background-color: #646CFF;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+.sign_button {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.sign_button:hover {
+    box-shadow: 0 0 20px red;
+}
+.first_input {
+    margin-bottom: 20px;
+}

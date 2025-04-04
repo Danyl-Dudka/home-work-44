@@ -1,0 +1,23 @@
+.input_form {
+    margin-bottom: 30px;
+    height: 40px;
+    font-size: 26px;
+}
+.add_button {
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(199,195,115,1) 35%, rgba(0,212,255,1) 100%);
+    font-size: 26px;
+    font-weight: 500;
+    color:darkred;
+    font-style: italic;
+    margin-left: 720px;
+    margin-top: 20px;
+}
+.form_select {
+    font-size: 26px !important;
+}
+.ant-select-selection-item {
+    font-size: 26px !important;
+}

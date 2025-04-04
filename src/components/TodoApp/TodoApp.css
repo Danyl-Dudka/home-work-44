@@ -1,0 +1,12 @@
+.todo_application {
+    width: 1000px;
+    background-color: #646CFF;
+    padding: 50px 50px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.todo_application h3 {
+    font-style: italic;
+    font-size: 36px;
+}

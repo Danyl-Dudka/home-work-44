@@ -1,0 +1,53 @@
+.list_style {
+    list-style-type: none;
+}
+.list_style p {
+    font-size: 26px;
+    font-weight: 500;
+    font-style: oblique;
+}
+.parent_container {
+    display: flex;
+}
+.info_container {
+    width: 260px;
+}
+.buttons_container {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.control_button {
+    margin-left: 30px;
+    width: 200px;
+    font-size: 26px;
+    height: 40px;
+    font-style: italic;
+    font-weight: 500;
+}
+.control_button:first-child {
+    background-color: yellow;
+}
+.control_button:last-child {
+    background-color: red;
+}
+.edit_container {
+    height: 100px;
+    width: 700px;
+    margin: 0 auto;
+}
+.edit_text_holder {
+    margin-right: 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 26px;
+    font-style: italic;
+}
+.save_button {
+    width: 140px;
+    height: 50px;
+    font-size: 32px;
+    background-color: greenyellow;
+}
