@@ -20,12 +20,10 @@ export const todosSlice = createSlice ({
                 priority: action.payload.priority,
             }
             state.todos.push(newTodo);
-            localStorage.setItem('todos', JSON.stringify(state.todos))
         },
 
         removeTodo: (state, action) => {
             state.todos = state.todos.filter((todo) => todo.id !== action.payload);
-            localStorage.setItem('todos', JSON.stringify(state.todos))
         },
 
         changeTodo: (state, action) => {
@@ -34,7 +32,6 @@ export const todosSlice = createSlice ({
                 todo.id === id ? {...todo, ...updatedTodo} : todo
             );
             state.todos = updatedTodos;
-            localStorage.setItem('todos', JSON.stringify(state.todos))
         },
         setValue: (state, action) => {
             state.text = action.payload;
